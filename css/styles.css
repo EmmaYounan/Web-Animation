@@ -161,7 +161,7 @@ body {
     background-color: #7b9cc5;
 }
 
-#Layer_1,#Layer_2,#Layer_3,#Layer_4 {
+#Layer_1,#Layer_2,#Layer_3,#Layer_4,#bg-Layer_4,#bg-Layer_3,#bg-Layer_2,#bg-Layer_1{
     z-index: 9999;
     position: absolute;
     transform: translateZ(61px);
@@ -170,10 +170,14 @@ body {
     left: -35px;
 }
 
-#Layer_3,#Layer_4  {
+#Layer_3,#Layer_4,#bg-Layer_4,#bg-Layer_3  {
     top: -115px;
 }
 
-#Layer_1, #Layer_3 {
+#bg-Layer_4,#bg-Layer_3,#bg-Layer_2,#bg-Layer_1{
+    transform: translateZ(60px);
+}
+
+#Layer_1,#bg-Layer_1,#Layer_3,#bg-Layer_3 {
     left: -110px;
 }

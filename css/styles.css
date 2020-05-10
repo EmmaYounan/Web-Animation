@@ -1,0 +1,163 @@
+  .world:nth-of-type(1) {
+    height: 250px;
+    margin: 0 auto;
+    margin-top: 5em;
+    position: relative;
+    transform-style: preserve-3d;
+    width: 400px;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    /* border: 1px solid black; */
+  }
+  .world:nth-of-type(2) {
+    height: 250px;
+    margin: 0 auto;
+    margin-top: 3em;
+    position: relative;
+    transform-style: preserve-3d;
+    width: 400px;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+  }
+  .cloud {
+      position: absolute;
+      width: 150px;
+  }
+
+  .cloud1 {
+      transform: translateZ(30px);
+      left: 160px;
+      top: -20px;
+      
+  }
+
+  .cloud2 {
+    transform: translateZ(15px);
+    left: 109px;
+    top: 40px;
+}
+
+.cloud3 {
+    transform: translateZ(-20px);
+    right: 50px;
+    top: -20px;
+}
+
+.cloud4 {
+    transform: translateZ(-40px);
+    left: 40px;
+    top: -10px;
+   
+}
+
+.cloud5 {
+    transform: translateZ(50px);
+    left: 120px;
+    top: 20px;
+}
+
+.cloud6 {
+    transform: translateZ(-62px);
+    right: 38px;
+}
+
+.cloud7 {
+    transform: translateZ(-70px);
+    left: 50px;
+    top: -21px;
+}
+
+.cloud8 {
+    transform: translateZ(-100px);
+    left: 260px;
+    top: 70px;
+}
+
+.cloud9 {
+    transform: translateZ(60px);
+    left: 120px;
+    top: 20px;
+}
+
+.cloud10 {
+    transform: translateZ(-53px);
+    left: -30px;
+    top: -21px;
+}
+
+.cloud11 {
+    transform: translateZ(50px);
+    left: 40px;
+}
+
+.cloud12 {
+    transform: translateZ(-88px);
+    left: 340px;
+    top: -45px;
+   
+}
+
+.cloud13 {
+    transform: translateZ(-90px);
+    left: 160px;
+    top: 10px;
+}
+
+.cloud14 {
+    transform: translateZ(34px);
+    left: 170px;
+    top: 60px;
+}
+
+.cloud15 {
+    transform: translateZ(13px);
+    left: 37px;
+}
+
+.cloud16 {
+    transform: translateZ(-7px);
+    left: 250px;
+    top: -43px;
+}
+
+.cloud17 {
+    transform: translateZ(-16px);
+    left: 77px;
+}
+
+.cloud18 {
+    transform: translateZ(29px);
+    left: 200px;
+    top: 5px;
+}
+
+
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+
+body {
+    color: #eee;
+    text-shadow: 0 -1px 0 rgba( 0, 0, 0, .6 );
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    line-height: 16px;
+    overflow: hidden;
+}
+#viewport {
+    -webkit-perspective: 1000;
+    -moz-perspective: 1000;
+    -o-perspective: 1000;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    background-color: #7b9cc5;
+}
+

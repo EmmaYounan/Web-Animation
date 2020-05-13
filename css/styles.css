@@ -1,7 +1,7 @@
   .world:nth-of-type(1) {
     height: 250px;
     margin: 0 auto;
-    margin-top: 5em;
+    margin-top: 8em;
     position: relative;
     transform-style: preserve-3d;
     width: 400px;
@@ -142,10 +142,10 @@
 }
 
 body {
-    color: #eee;
-    text-shadow: 0 -1px 0 rgba( 0, 0, 0, .6 );
-    font-family: 'Open Sans', sans-serif;
-    font-size: 13px;
+    /* color: #eee; */
+    /* text-shadow: 0 -1px 0 rgba( 0, 0, 0, .6 ); */
+    /* font-family: 'Open Sans', sans-serif; */
+    /* font-size: 13px; */
     line-height: 16px;
     overflow: hidden;
 }
@@ -182,3 +182,99 @@ body {
 #Layer_1,#bg-Layer_1,#Layer_3,#bg-Layer_3 {
     left: -110px;
 }
+
+@font-face {
+    font-family: "Bodoni";
+    src: url(../fonts/BodoniFLF-Bold.ttf);
+}
+
+
+h1 {
+    font-family: 'Bodoni', serif;
+    position: absolute;
+    top: 200px;
+    width: 97px;
+    line-height: 50px;
+    transform: rotate(-90deg);
+    right: 270px;
+    border-left: 4px solid white;
+    padding-left: 12px;
+    z-index: 1;
+    color: white;
+    font-size: 50px;
+    letter-spacing: 1.5px;
+}
+
+h2 {
+    position: absolute;
+    top: 305px;
+    right: 270px;
+    width: 97px;
+    line-height: 25px;
+    border-bottom: 1px solid white;
+    padding-bottom: 1.5px;
+    z-index: 1;
+    color: white;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 200;
+}
+
+#textOne {
+    position: absolute;
+    z-index: 1;
+    color: white;
+    top: 360px;
+    right: 270px;
+    width: 97px;
+    border-bottom: 1px solid white;
+    padding-bottom: 2.5px;
+    font-size: 10px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+}
+
+#textTwo {
+    position: absolute;
+    z-index: 1;
+    color: white;
+    top: 382px;
+    right: 270px;
+    width: 97px;
+    border-bottom: 1px solid white;
+    padding-bottom: 2.5px;
+    font-size: 10px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+}
+
+#textThree {
+    position: absolute;
+    z-index: 1;
+    color: white;
+    top: 405px;
+    right: 270px;
+    width: 97px;
+    border-bottom: 1px solid white;
+    padding-bottom: 2.5px;
+    line-height: 16px;
+    font-size: 10px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+
+}
+
+#textFour {
+    position: absolute;
+    z-index: 1;
+    color: white;
+    top: 539px;
+    right: 270px;
+    width: 97px;
+    border-bottom: 1px solid white;
+    padding-bottom: 2.5px;
+    line-height: 16px;
+    font-size: 10px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+}
+

@@ -145,19 +145,23 @@ for (let i = 0; i < worlds.length; i++) {
 playButton.addEventListener("click", function(){
   if(musicOne.paused){
     musicOne.play();
-    playButton.innerHTML = "Pause";
+    playButton.classList.add("pause");
+    playButton.classList.remove("play");
   } else {
     musicOne.pause();
-    playButton.innerHTML = "Play";
+    playButton.classList.add("play");
+    playButton.classList.remove("pause");
   }
 });
 
 window.addEventListener("load", function(){
     musicOne.play();
     if(musicOne.paused){
-        playButton.innerHTML = "Play";
+        playButton.classList.add("play");
+        playButton.classList.remove("pause");
       } else {
-        playButton.innerHTML = "Pause";
+        playButton.classList.add("pause");
+        playButton.classList.remove("play");
       }
 })
 
@@ -242,17 +246,21 @@ button.addEventListener('click', function(){
         musicOne.src = "/66764-01-05-VBR.mp3"
         musicOne.play();
         if(musicOne.paused){
-            playButton.innerHTML = "Play";
+            playButton.classList.add("play");
+            playButton.classList.remove("pause");
           } else {
-            playButton.innerHTML = "Pause";
+            playButton.classList.add("pause");
+            playButton.classList.remove("play");
           }
     }else if (!background.classList.contains("pink")){
         musicOne.src = "/66764-01-02-VBR.mp3"
         musicOne.play();
         if(musicOne.paused){
-            playButton.innerHTML = "Play";
+            playButton.classList.add("play");
+            playButton.classList.remove("pause");
           } else {
-            playButton.innerHTML = "Pause";
+            playButton.classList.add("pause");
+            playButton.classList.remove("play");
           }
         var stars = document.querySelectorAll(".star");
         for (let i = 0; i < stars.length; i++) {

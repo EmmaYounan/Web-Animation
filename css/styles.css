@@ -503,6 +503,27 @@ button {
     }
 }
 
+.button {
+    height: 50px;
+    width: 100px;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    border-radius: 50px;
+    background-image: url(/sun.png);
+    background-repeat: no-repeat;
+    background-position: 0.5em;
+    background-size: 40px;
+    transition: all 1s;
+}
+
+.night {
+    background-image: url(/moon.png);
+    background-repeat: no-repeat;
+    background-position: 2.8em;
+    background-size: 40px;
+    transition: all 1s;
+}
+
 .music-btn {
     display: block;
     top: 550px;
@@ -510,12 +531,78 @@ button {
 
 .heart-btn {
     display: block;
-    top: 70px;
+    left: 150px;
+    top: 45px;
+    background-color: transparent;
 }
+
+.heart-btn div {
+    background-color: red;
+    display: inline-block;
+    height: 25px;
+    margin: 0 10px;
+    position: relative;
+    top: 0;
+    transform: rotate(-45deg);
+    width: 25px;
+    animation-name: scalingBtn;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes scalingBtn {
+      0%{
+        transform: scale(1) rotate(-45deg);
+      }
+      50%{
+        transform: scale(1.1) rotate(-45deg);
+      }
+      100%{
+        transform: scale(1) rotate(-45deg);
+      }
+  }
+  
+.heart-btn div:before,
+.heart-btn div:after {
+    content: "";
+    background-color: red;
+    border-radius: 50%;
+    height: 25px;
+    position: absolute;
+    width: 25px;
+  }
+  
+.heart-btn div:before {
+    top: -15px;
+    left: 0;
+  }
+  
+.heart-btn div:after {
+    left: 15px;
+    top: 0;
+  }
 
 .rainbow-btn {
     display: block;
-    top: 70px;
+    left: 150px;
+    top: 40px;
+    background-color: transparent;
+    width: 70px;
+    animation-name: rainbowRotate;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rainbowRotate {
+    0%{
+        transform: scale(1)
+    }
+    50%{
+        transform: scale(1.1)
+    }
+    100%{
+        transform: scale(1)
+    }
 }
 
 .desappear{

@@ -209,11 +209,8 @@ window.addEventListener("keydown", function (e) {
 })
 
 button.addEventListener('click', function(){
-    if(button.innerHTML == "Night"){
-        button.innerHTML = "Day"
-    }else if(button.innerHTML == "Day"){
-        button.innerHTML= "Night"
-    }
+    button.classList.toggle('night')
+    
     eyeBall[0].classList.toggle('eyeBallColor');
     eyeBall[1].classList.toggle('eyeBallColor');
     eyeBall[2].classList.toggle('eyeBallColor');

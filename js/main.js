@@ -243,7 +243,7 @@ button.addEventListener('click', function(){
         animateStars();
         btnRainBow.classList.toggle("desappear")
         btnHeart.classList.toggle("desappear")
-        musicOne.src = "/66764-01-05-VBR.mp3"
+        musicOne.src = "66764-01-05-VBR.mp3"
         musicOne.play();
         if(musicOne.paused){
             playButton.classList.add("play");
@@ -253,7 +253,7 @@ button.addEventListener('click', function(){
             playButton.classList.remove("play");
           }
     }else if (!background.classList.contains("pink")){
-        musicOne.src = "/66764-01-02-VBR.mp3"
+        musicOne.src = "66764-01-02-VBR.mp3"
         musicOne.play();
         if(musicOne.paused){
             playButton.classList.add("play");

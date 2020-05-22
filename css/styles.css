@@ -1,18 +1,24 @@
   .world:nth-of-type(1) {
     height: 250px;
     margin: 0 auto;
-    margin-top: 8em;
+    margin-top: 6em;
     position: relative;
     transform-style: preserve-3d;
     width: 400px;
     -webkit-transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
     -o-transform-style: preserve-3d;
-    /* border: 1px solid black; */
+    animation-name: movingclouds;
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: 1;
+    cursor: pointer;
   }
+  
   .world:nth-of-type(2) {
     height: 250px;
-    margin: 0 auto;
+    margin-left: calc(50% - 200px);
+    margin-right: auto;
     margin-top: 3em;
     position: relative;
     transform-style: preserve-3d;
@@ -20,18 +26,39 @@
     -webkit-transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
     -o-transform-style: preserve-3d;
-    /* transform: scaleX(-1); */
+    animation-name: movingclouds;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: 1;
+    cursor: pointer;
   }
+
+  /* intero clouds */
+  @keyframes movingclouds {
+    0% {
+        margin-left: -999px;
+    }
+
+    100% {
+        margin-left: calc(50% - 200px);
+    }
+}
+
   .cloud {
       position: absolute;
       width: 150px;
+      /* -webkit-filter: invert(.8);
+      filter: invert(.8); */
+  }
+
+  .cloudPink {
+       filter: sepia() saturate(10000%) hue-rotate(185deg);
   }
 
   .cloud1 {
       transform: translateZ(30px);
       left: 160px;
-      top: -20px;
-      
+      top: -20px; 
   }
 
   .cloud2 {
@@ -135,20 +162,17 @@
 }
 
 
-  *{
+*{
     box-sizing: border-box;
     margin: 0;
     padding: 0
 }
 
 body {
-    /* color: #eee; */
-    /* text-shadow: 0 -1px 0 rgba( 0, 0, 0, .6 ); */
-    /* font-family: 'Open Sans', sans-serif; */
-    /* font-size: 13px; */
     line-height: 16px;
     overflow: hidden;
 }
+
 #viewport {
     -webkit-perspective: 1000;
     -moz-perspective: 1000;
@@ -160,13 +184,14 @@ body {
     bottom: 0;
     overflow: hidden;
     background-color: #7b9cc5;
+    transition: all 1s;
 }
 
 #Layer_1,#Layer_2,#Layer_3,#Layer_4,#bg-Layer_4,#bg-Layer_3,#bg-Layer_2,#bg-Layer_1{
     z-index: 9999;
     position: absolute;
-    transform: translateZ(61px);
-    top: -80px;
+    transform: translateZ(80px);
+    top: -70px;
     width: 550px;
     left: -35px;
 }
@@ -176,7 +201,7 @@ body {
 }
 
 #bg-Layer_4,#bg-Layer_3,#bg-Layer_2,#bg-Layer_1{
-    transform: translateZ(60px);
+    transform: translateZ(79px);
 }
 
 #Layer_1,#bg-Layer_1,#Layer_3,#bg-Layer_3 {
@@ -188,43 +213,81 @@ body {
     src: url(../fonts/BodoniFLF-Bold.ttf);
 }
 
+.h1-holder{
+    position: absolute;
+    top: 109px;
+    width: 280px;
+    transform: rotate(-90deg);
+    right: 178px;
+    border-left: 4px solid white;
+    z-index: 1;
+    overflow: hidden;
+}
 
 h1 {
     font-family: 'Bodoni', serif;
-    position: absolute;
-    top: 200px;
-    width: 97px;
+    width: 280px;
     line-height: 50px;
-    transform: rotate(-90deg);
-    right: 270px;
-    border-left: 4px solid white;
     padding-left: 12px;
-    z-index: 1;
     color: white;
     font-size: 50px;
     letter-spacing: 1.5px;
+    animation-name: moveH1;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    transition: all 1s;
+}
+@keyframes moveH1{
+    0%{
+        margin-left: -280px;
+    }
+    100%{
+        margin-left: 0px;
+    }
 }
 
-h2 {
+.red {
+    color: red;
+    transition: all 1s;
+}
+
+.h2-holder{
     position: absolute;
     top: 305px;
     right: 270px;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.h2-container {
+    animation-name: moveH2;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    /* animation-timing-function: ease-in-out; */
+}
+
+@keyframes moveH2{
+    0%{
+        margin-top: -400px;
+    }
+    100%{
+        margin-top: 0px;
+    }
+}
+
+h2 {
     width: 97px;
     line-height: 25px;
     border-bottom: 1px solid white;
     padding-bottom: 1.5px;
-    z-index: 1;
     color: white;
     font-family: 'Heebo', sans-serif;
     font-weight: 200;
 }
 
 #textOne {
-    position: absolute;
-    z-index: 1;
     color: white;
-    top: 360px;
-    right: 270px;
     width: 97px;
     border-bottom: 1px solid white;
     padding-bottom: 2.5px;
@@ -234,11 +297,7 @@ h2 {
 }
 
 #textTwo {
-    position: absolute;
-    z-index: 1;
     color: white;
-    top: 382px;
-    right: 270px;
     width: 97px;
     border-bottom: 1px solid white;
     padding-bottom: 2.5px;
@@ -248,11 +307,7 @@ h2 {
 }
 
 #textThree {
-    position: absolute;
-    z-index: 1;
     color: white;
-    top: 405px;
-    right: 270px;
     width: 97px;
     border-bottom: 1px solid white;
     padding-bottom: 2.5px;
@@ -264,11 +319,7 @@ h2 {
 }
 
 #textFour {
-    position: absolute;
-    z-index: 1;
     color: white;
-    top: 539px;
-    right: 270px;
     width: 97px;
     border-bottom: 1px solid white;
     padding-bottom: 2.5px;
@@ -277,4 +328,296 @@ h2 {
     font-family: 'Heebo', sans-serif;
     font-weight: 400;
 }
+
+button {
+    cursor: pointer;
+    background-color: white;
+    position: absolute;
+    z-index: 999;
+    top: 30px;
+    left: 30px;
+    width: 40px;
+    border: none;
+    font-size: 1em;
+    padding: 2px;
+}
+
+#viewport.pink {
+    background-color:rgb(23, 0, 65);
+    transition: all 1s;
+}
+
+.eyeFill {
+    overflow: visible;
+    fill: #7b9cc5;
+    transition: all 1s;
+}
+
+.pinkEye {
+    fill: white;
+    transition: all 1s;
+}
+
+.st0{
+    clip-path:url(#_x3C_eyeFram4_x3E__1_);
+    fill:#0A0A11;
+}
+
+.eyeBallColor {
+    fill: rgb(23, 0, 65);
+}
+
+.hearts {
+    background-color: red;
+    display: inline-block;
+    height: 25px;
+    margin: 0 10px;
+    position: relative;
+    top: 0;
+    transform: rotate(-45deg);
+    width: 25px;
+    opacity: 0;
+  }
+  
+.hearts:before,
+.hearts:after {
+    content: "";
+    background-color: red;
+    border-radius: 50%;
+    height: 25px;
+    position: absolute;
+    width: 25px;
+  }
+  
+.hearts:before {
+    top: -15px;
+    left: 0;
+  }
+  
+.hearts:after {
+    left: 15px;
+    top: 0;
+  }
+
+/* hearts animation */
+@keyframes heartOne {
+    0% {
+        top: 110px;
+        opacity: 1;
+    }
+    100% {
+        top: 500px;
+        opacity: 0;
+    }
+}
+  
+.heart1 {
+      position: absolute;
+      top: 110px;
+      left: 30px;
+      z-index: -1;
+      animation-name: heartOne;
+      animation-duration: 1s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+  }
+
+.heart2 {
+    position: absolute;
+    top: 120px;
+    left: 100px;
+    z-index: -1;
+    animation-name: heartOne;
+    animation-duration: 1s;
+    animation-delay: 1.7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.heart3 {
+    position: absolute;
+    top: 140px;
+    left: 150px;
+    z-index: -1;
+    animation-name: heartOne;
+    animation-duration: 1s;
+    animation-delay: 0.9s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.heart4 {
+    position: absolute;
+    top: 120px;
+    left: 220px;
+    z-index: -1;
+    animation-name: heartOne;
+    animation-duration: 1s;
+    animation-delay: 1.1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.heart5 {
+    position: absolute;
+    top: 140px;
+    left: 280px;
+    z-index: -1;
+    animation-name: heartOne;
+    animation-duration: 1s;
+    animation-delay: 2.3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.heart6 {
+    position: absolute;
+    top: 100px;
+    left: 340px;
+    z-index: -1;
+    animation-name: heartOne;
+    animation-duration: 1s;
+    animation-delay: 0.2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.star {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    border-radius: 2px;
+    background: white;
+}
+
+/* stars animation */
+@keyframes fade {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+.music-btn {
+    display: block;
+    top: 550px;
+}
+
+.heart-btn {
+    display: block;
+    top: 70px;
+}
+
+.rainbow-btn {
+    display: block;
+    top: 70px;
+}
+
+.desappear{
+    display: none;
+}
+
+.rainbow {
+    clip: rect(0 490px 245px 0);
+    height: 490px;
+    left: -30%;
+    position: absolute;
+    top: -10%;
+    transform: translateX(-50%) translateY(-25%);
+    width: 490px;
+    transform: rotate(-90deg);
+}
+
+.arc {
+    animation: spin ease-in-out 2s normal both;
+    border-radius: 50%;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+}
+
+.arc-red {
+    border: 40px solid #e31d28;
+    clip: rect(0 490px 245px 0);
+    height: 490px;
+    margin-left: -245px;
+    margin-top: -245px;
+    width: 490px;
+    animation-delay: 1.8s;
+    opacity: 0;
+}
+
+.arc-orange {
+    border: 40px solid #ed8c3d;
+    clip: rect(0 420px 210px 0);
+    height: 420px;
+    margin-left: -210px;
+    margin-top: -210px;
+    width: 420px;
+    animation-delay: 1.5s;
+    opacity: 0;
+}
+
+.arc-yellow {
+    border: 40px solid #fcd234;
+    clip: rect(0 350px 175px 0);
+    height: 350px;
+    margin-left: -175px;
+    margin-top: -175px;
+    width: 350px;
+    animation-delay: 1.2s;
+    opacity: 0;
+}
+.arc-green {
+    border: 40px solid #3e9965;
+    clip: rect(0 280px 140px 0);
+    height: 280px;
+    margin-left: -140px;
+    margin-top: -140px;
+    width: 280px;
+    animation-delay: 0.9s;
+    opacity: 0;
+}
+
+.arc-blue {
+    border: 40px solid #295167;
+    clip: rect(0 210px 105px 0);
+    height: 210px;
+    margin-left: -105px;
+    margin-top: -105px;
+    width: 210px;
+    animation-delay: 0.6s;
+    opacity: 0;
+}
+
+.arc-purple {
+    border: 40px solid #492245;
+    clip: rect(0 140px 70px 0);
+    height: 140px;
+    margin-left: -70px;
+    margin-top: -70px;
+    width: 140px;
+    animation-delay: 0.3s;
+    opacity: 0;
+}
+
+.arc {
+    opacity: 0.9;
+}
+
+
+@keyframes spin {
+    from {
+        transform: rotateZ(-180deg);
+   }
+    to {
+        transform: rotateZ(0deg);
+   }
+}
+
 

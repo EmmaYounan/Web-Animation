@@ -7,31 +7,53 @@
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
-<body>
-    <h1>Bayerische Staatsoper</h1>
-    <h2>Was ihr wollt</h2>
-    <p id="textOne">Manfred Trojahn</p>
-    <p id="textTwo">Uraufführung</p>
-    <div id="textThree">
-        <p>Musikalische Leitung:</p>
-        <p>Michael Boder</p>
-        <p>Inszenierung und Bühne:</p> 
-        <p>Peter Mussbach</p> 
-        <p>Kostüme:</p> 
-        <p>Andrea Schmidt-Futterer</p>
-    </div>
-    <div id="textFour">
-        <p>Premiere:</p>
-        <p>24. Mai 1998</p> 
-        <p>Aktuelle Vorstellungstermine:</p> 
-        <p>Monatsspielplan und </p> 
-        <p>Telefon 089/218501</p>
+<body class="back-row-toggle splat-toggle" id="sky">
+    <button class="button">Night</button>
+    <button class="rainbow-btn">Rainbow</button>
+    <button class="heart-btn desappear">Hearts</button>
+    <button class="music-btn">Pause</button>
+    <audio class="audio-one">
+        <source src="/66764-01-02-VBR.mp3" type="audio/mpeg">
+    </audio>
+    <div class="textHolder">
+        <div class="h1-holder">
+            <h1 class="header">Bayerische Staatsoper</h1>
+        </div>
+        <div class="h2-holder">
+            <div class="h2-container">
+                <h2>Was ihr wollt</h2>
+                <p id="textOne">Manfred Trojahn</p>
+                <p id="textTwo">Uraufführung</p>
+                <div id="textThree">
+                    <p>Musikalische Leitung:</p>
+                    <p>Michael Boder</p>
+                    <p>Inszenierung und Bühne:</p> 
+                    <p>Peter Mussbach</p> 
+                    <p>Kostüme:</p> 
+                    <p>Andrea Schmidt-Futterer</p>
+                </div>
+                <div id="textFour">
+                    <p>Premiere:</p>
+                    <p>24. Mai 1998</p> 
+                    <p>Aktuelle Vorstellungstermine:</p> 
+                    <p>Monatsspielplan und </p> 
+                    <p>Telefon 089/218501</p>
+                </div>
+            </div>
+        </div>
     </div>
 
     <div id="viewport" >
         <div class="world" >
             <div class="cloudBase">
-
+                <div class="rainbow">
+                    <div class="arc-red color"></div>
+                    <div class="arc-orange color"></div>
+                    <div class="arc-yellow color"></div>
+                    <div class="arc-green color"></div>
+                    <div class="arc-blue color"></div>
+                    <div class="arc-purple color"></div>
+                  </div>
                 <svg version="1.1" id="bg-Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"viewBox="0 0 841.9 595.3" style="enable-background:new 0 0 841.9 595.3;" xml:space="preserve">
                     <g>
                         <defs>
@@ -45,22 +67,22 @@
                 </svg>
 
                 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"viewBox="0 0 841.9 595.3" style="enable-background:new 0 0 841.9 595.3;" xml:space="preserve">
-                    <style type="text/css">
+                    <!-- <style type="text/css">
                         .st0{clip-path:url(#_x3C_eyeFram1_x3E__1_);fill:#0A0A11;}
-                    </style>
+                    </style> -->
                     <g>
                         <defs>
                             <path id="_x3C_eyeFram1_x3E_" d="M434.7,255.8c-32.9,0-46.9,22.9-46.9,22.9s14,22.9,46.9,22.9s46.6-22.9,46.6-22.9
                                 S467.6,255.8,434.7,255.8z"/>
                         </defs>
-                        <use xlink:href="#_x3C_eyeFram1_x3E_"  style="overflow:visible;fill:#7B9CC5;"/>
+                        <use class="eyeFill eye-one" xlink:href="#_x3C_eyeFram1_x3E_" />
                         <clipPath id="_x3C_eyeFram1_x3E__1_">
                             <use xlink:href="#_x3C_eyeFram1_x3E_"  style="overflow:visible;"/>
                         </clipPath>
                         <!-- <circle id="_x3C_eyeBall1_x3E_" class="st0" cx="405.7" cy="279.3" r="25.7"/> -->
                         <circle id="_x3C_eyeBall1_x3E_" class="st0" cx="405.7" cy="279.3" r="25.7">
-                            <animate id="s1" attributeName="cx" from="405.7" to="465" begin='0;s2.end' dur="1s" />
-                            <animate id="s2" attributeName="cx" from="465" to="405.7" begin='s1.end;' dur="1s"/> -->
+                            <animate id="s1" attributeName="cx" from="405.7" to="465" begin='0;s2.end' dur="2s" />
+                            <animate id="s2" attributeName="cx" from="465" to="405.7" begin='s1.end;' dur="2s"/> -->
                         </circle>
                         <use xlink:href="#_x3C_eyeFram1_x3E_"  style="overflow:visible;fill:none;stroke:#747E89;stroke-width:0.75;stroke-miterlimit:10;"/>
                     </g>
@@ -79,20 +101,20 @@
                 </svg>
 
                 <svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"viewBox="0 0 841.9 595.3" style="enable-background:new 0 0 841.9 595.3;" xml:space="preserve">
-                    <style type="text/css">
+                    <!-- <style type="text/css">
                         .st0{clip-path:url(#_x3C_eyeFram2_x3E__1_);fill:#0A0A11;}
-                    </style>
+                    </style> -->
                     <g>
                         <defs>
                             <path id="_x3C_eyeFram2_x3E_" d="M434.7,255.8c-32.9,0-46.9,22.9-46.9,22.9s14,22.9,46.9,22.9s46.6-22.9,46.6-22.9S467.6,255.8,434.7,255.8z"/>
                         </defs>
-                        <use xlink:href="#_x3C_eyeFram2_x3E_"  style="overflow:visible;fill:#7B9CC5;"/>
+                        <use xlink:href="#_x3C_eyeFram2_x3E_" class="eyeFill eye-two"/>
                         <clipPath id="_x3C_eyeFram2_x3E__1_">
                             <use xlink:href="#_x3C_eyeFram2_x3E_"  style="overflow:visible;"/>
                         </clipPath>
                         <circle id="_x3C_eyeBall1_x3E_" class="st0" cx="405.7" cy="279.3" r="25.7">
-                            <animate id="s3" attributeName="cx" from="405.7" to="465" begin='0;s4.end' dur="1s" />
-                            <animate id="s4" attributeName="cx" from="465" to="405.7" begin='s3.end;' dur="1s"/> -->
+                            <animate id="s3" attributeName="cx" from="405.7" to="465" begin='0;s4.end' dur="2s" />
+                            <animate id="s4" attributeName="cx" from="465" to="405.7" begin='s3.end;' dur="2s"/> -->
                         </circle>
                         <use xlink:href="#_x3C_eyeFram2_x3E_"  style="overflow:visible;fill:none;stroke:#747E89;stroke-width:0.75;stroke-miterlimit:10;"/>
                     </g>
@@ -117,6 +139,14 @@
                 <img class="cloud cloud17" src="cloud.png" alt="">
                 <img class="cloud cloud18" src="cloud.png" alt="">
             </div>
+            <div class="rainBase">
+                <div class="hearts"></div>
+                <div class="hearts"></div>
+                <div class="hearts"></div>
+                <div class="hearts"></div>
+                <div class="hearts"></div>
+                <div class="hearts"></div>
+            </div>
         </div>
 
         <div class="world" > 
@@ -135,20 +165,20 @@
                 </svg>
 
                  <svg version="1.1" id="Layer_3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"viewBox="0 0 841.9 595.3" style="enable-background:new 0 0 841.9 595.3;" xml:space="preserve">
-                    <style type="text/css">
+                    <!-- <style type="text/css">
                         .st0{clip-path:url(#_x3C_eyeFram3_x3E__1_);fill:#0A0A11;}
-                    </style>
+                    </style> -->
                     <g>
                         <defs>
                             <path id="_x3C_eyeFram3_x3E_" d="M434.7,255.8c-32.9,0-46.9,22.9-46.9,22.9s14,22.9,46.9,22.9s46.6-22.9,46.6-22.9S467.6,255.8,434.7,255.8z"/>
                         </defs>
-                        <use xlink:href="#_x3C_eyeFram3_x3E_"  style="overflow:visible;fill:#7B9CC5;"/>
+                        <use xlink:href="#_x3C_eyeFram3_x3E_" class="eyeFill eye-three"/>
                         <clipPath id="_x3C_eyeFram3_x3E__1_">
                             <use xlink:href="#_x3C_eyeFram3_x3E_"  style="overflow:visible;"/>
                         </clipPath>
                         <circle id="_x3C_eyeBall1_x3E_" class="st0" cx="405.7" cy="279.3" r="25.7">
-                            <animate id="s5" attributeName="cx"  from="465" to="405.7" begin='0;s6.end' dur="1s" />
-                            <animate id="s6" attributeName="cx"  from="405.7" to="465" begin='s5.end;' dur="1s"/> -->
+                            <animate id="s5" attributeName="cx"  from="465" to="405.7" begin='0;s6.end' dur="2s" />
+                            <animate id="s6" attributeName="cx"  from="405.7" to="465" begin='s5.end;' dur="2s"/> -->
                         </circle>
                         <use xlink:href="#_x3C_eyeFram3_x3E_"  style="overflow:visible;fill:none;stroke:#747E89;stroke-width:0.75;stroke-miterlimit:10;"/>
                     </g>
@@ -167,20 +197,20 @@
                 </svg>
 
                 <svg version="1.1" id="Layer_4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"viewBox="0 0 841.9 595.3" style="enable-background:new 0 0 841.9 595.3;" xml:space="preserve">
-                    <style type="text/css">
+                    <!-- <style type="text/css">
                         .st0{clip-path:url(#_x3C_eyeFram4_x3E__1_);fill:#0A0A11;}
-                    </style>
+                    </style> -->
                     <g>
                         <defs>
                             <path id="_x3C_eyeFram4_x3E_" d="M434.7,255.8c-32.9,0-46.9,22.9-46.9,22.9s14,22.9,46.9,22.9s46.6-22.9,46.6-22.9S467.6,255.8,434.7,255.8z"/>
                         </defs>
-                        <use xlink:href="#_x3C_eyeFram4_x3E_"  style="overflow:visible;fill:#7B9CC5;"/>
+                        <use xlink:href="#_x3C_eyeFram4_x3E_" class="eyeFill eye-four"/>
                         <clipPath id="_x3C_eyeFram4_x3E__1_">
                             <use xlink:href="#_x3C_eyeFram4_x3E_"  style="overflow:visible;"/>
                         </clipPath>
                         <circle id="_x3C_eyeBall1_x3E_" class="st0" cx="405.7" cy="279.3" r="25.7">
-                            <animate id="s7" attributeName="cx"  from="465" to="405.7" begin='0;s8.end' dur="1s" />
-                            <animate id="s8" attributeName="cx"  from="405.7" to="465" begin='s7.end;' dur="1s"/> -->
+                            <animate id="s7" attributeName="cx"  from="465" to="405.7" begin='0;s8.end' dur="2s" />
+                            <animate id="s8" attributeName="cx"  from="405.7" to="465" begin='s7.end;' dur="2s"/> -->
                         </circle>
                         <use xlink:href="#_x3C_eyeFram4_x3E_"  style="overflow:visible;fill:none;stroke:#747E89;stroke-width:0.75;stroke-miterlimit:10;"/>
                     </g>
@@ -204,6 +234,14 @@
                 <img class="cloud cloud16" src="cloud.png" alt="">
                 <img class="cloud cloud17" src="cloud.png" alt="">
                 <img class="cloud cloud18" src="cloud.png" alt="">
+            </div>
+            <div class="rainBase">
+                <div class="hearts"></div>
+                <div class="hearts"></div>
+                <div class="hearts"></div>
+                <div class="hearts"></div>
+                <div class="hearts"></div>
+                <div class="hearts"></div>
             </div>
         </div>
       </div>

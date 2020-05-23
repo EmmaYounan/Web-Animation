@@ -68,6 +68,26 @@ Users can also click on the R button on thier keyboard to start the rainbow anim
 
 - Mousewheel / Mousemove event / Touchmove event
 
+To create the clouds I started with creating a viewport a ```<div>``` element in the HTML that contains another ```<div>``` element as the world for the different elements of the world (like clouds, eyes, rainbow, and hearts). Within that container I have another ```<div>``` element as the cloud base for the cloud.png image.
+
+In JavaScript I defined the variables world and viewport. WorldXAngle and worldYAngle are floats that hold the world rotations. Using ```.style.webkitPerspective=();``` to give the viewport a perspective of 400.
+
+Using the ```function onMouseMove ( e )``` to transform mouse position into angles from -180 to 180 degrees, both vertically and horizontally. This happens by calling the function using this event for desktop ```.addEventListener( 'mousemove', onMouseMove );```
+And using this event for mobile ```.addEventListener( 'touchmove', onMouseMove );```
+```js
+function onMouseMove ( e ) {  
+    // console.log(e)  
+    var x = e.clientX || e.touches[ 0 ].clientX;    
+    var y = e.clientY || e.touches[ 0 ].clientY;
+
+    worldYAngle = -( .5 - ( x / window.innerWidth ) ) * 180;
+    worldXAngle = ( .5 - ( y / window.innerHeight ) ) * 180;
+    updateView();
+    event.preventDefault();
+
+}
+```
+
 ***
 
 **Interactive themes**

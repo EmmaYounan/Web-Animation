@@ -58,7 +58,7 @@ Mendell's work was full of simple symbols that everyone can understand. That is 
 - Keydown event
 - Mousewheel / Mousemove event
 
-**Interactive night theme**
+**Interactive themes**
 - Button (click)
 
 **Interactive music** 
@@ -68,11 +68,53 @@ Mendell's work was full of simple symbols that everyone can understand. That is 
 ### 🤖 Animations
 **Animated clouds**
 
+**Animated eyes**
+
 **Animated rainbow**
 
+
 **Animated hearts**
+Using :before and :after pseudo-classes on a <div> element to create a heart shape.
+```css
+  .hearts {
+    background-color: red;
+    display: inline-block;
+    height: 25px;
+    margin: 0 10px;
+    position: relative;
+    top: 0;
+    transform: rotate(-45deg);
+    width: 25px;
+    opacity: 0;
+  }
+  
+.hearts:before,
+.hearts:after {
+    content: "";
+    background-color: red;
+    border-radius: 50%;
+    height: 25px;
+    position: absolute;
+    width: 25px;
+  }
+  
+.hearts:before {
+    top: -15px;
+    left: 0;
+  }
+  
+.hearts:after {
+    left: 15px;
+    top: 0;
+  }
+  
+```
+
+By creating multiple <div> elements and giving them a position. I was able to animate them and create a heart rain effect using Keyframes animation in css.
+(code) 
 
 **Animated stars** 
+
 
 **Animated buttons**
 

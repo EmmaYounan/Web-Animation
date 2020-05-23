@@ -165,7 +165,7 @@ Using ```:before``` and ```:after``` pseudo-classes on a ```<div>``` element to 
   
 ```
 
-By creating multiple ```<div>``` elements and giving them a position. I was able to animate them and create a heart rain effect using Keyframes animation in css.
+By creating multiple ```<div>``` elements and giving them a position. I was able to animate them and create a raining hearts effect using Keyframes animation in css, throug changing the top position and the opacity.
 ```css
 /* hearts animation */
 @keyframes heartOne {
@@ -194,6 +194,17 @@ function drawStars(){
 }
 ```
 
+The amount of drawn stars is given by this function. 
+```js
+function createStars(i) {
+    var i = i;
+    while(i){
+      drawStars();
+      i-=1;
+    }
+}
+```
+
 To animate the stars I used Keyframes to give the stars a fading effect using different opasities.
 ```css
 @keyframes fade {
@@ -212,6 +223,9 @@ To animate the stars I used Keyframes to give the stars a fading effect using di
 ***
 
 **Animated buttons**
+
+Interaction buttons (rainbow button, hreat button, and music button) are animated with keyframes in css by Using ```scale:();```. The Day/ Night button is animated happens when a class added is adeed in JavaScript on the button when the click events happen. The animations is changing the position of the sun and changing the sun image to the moon image when the click event happens, while also using ```transition:();``` . All buttons have a ```:hover``` and ```:focus``` pseudo class. To make sure that the user knows when an element is interactive.
+
 
 
 ### 📱💻 Responsive design

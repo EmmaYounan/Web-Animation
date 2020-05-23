@@ -66,6 +66,14 @@ Mendell's work was full of simple symbols that everyone can understand. That is 
 
 
 ### 🤖 Animations
+**Animated clouds**
+
+**Animated rainbow**
+
+**Animated hearts**
+
+**Animated stars** 
+
 
 ### 📱💻 Responsive design
 - Mobile

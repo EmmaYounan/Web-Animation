@@ -762,7 +762,7 @@ button {
         margin-top: 107px;
     }
     .cloudPink {
-        filter: sepia() saturate(100%) hue-rotate(185deg);
+        filter: sepia() saturate(50%) hue-rotate(145deg);
    }
 }   
 @media(max-width: 414px){

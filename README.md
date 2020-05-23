@@ -38,7 +38,7 @@ I think that Mendell wanted to represent the two twins by the two clouds. They a
 
 
 ### 🎯 Concept - Desgin decisions
-This poster by Mendell is one of the poster series that he designed for the (Opera name). It follows the simple yet expressive design of Mendell. Using simple, textured elements, solid background color, and some simple white typography for the poster's information. Medell design had texture, that is why I decided to play with the texture of the clouds. A 3D effect to give the poster a realistic, fun touch. Where the user can use the mousepad to zoom in to the clouds and zoom out of them. Also, the clouds follow the movement of the user's mouse that gives more interactivity to those simple elements. 
+This poster by Mendell is one of the poster series that he designed for the Bayerische Staatsoper. It follows the simple yet expressive design of Mendell. Using simple, textured elements, solid background color, and some simple white typography for the poster's information. Medell design had texture, that is why I decided to play with the texture of the clouds. A 3D effect to give the poster a realistic, fun touch. Where the user can use the mousepad to zoom in to the clouds and zoom out of them. Also, the clouds follow the movement of the user's mouse that gives more interactivity to those simple elements. 
 
 Clouds that have eyes are not that crazy so let's make them crazier by animating them. That gives the poster a much bigger touch of nonsense and attacks the user's attention to the main elements in the poster (the clouds). 
 

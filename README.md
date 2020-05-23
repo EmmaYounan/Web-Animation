@@ -72,6 +72,41 @@ Mendell's work was full of simple symbols that everyone can understand. That is 
 
 **Animated eyes**
 
+First, I used Illustrator to create an eye and exported it as an SVG code. In code I started with putting that ```<svg>``` element in my HTML to create the eye shape. 
+```html
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"viewBox="0 0 841.9 595.3" style="enable-background:new 0 0 841.9 595.3;" xml:space="preserve">
+                    <!-- <style type="text/css">
+                        .st0{clip-path:url(#_x3C_eyeFram1_x3E__1_);fill:#0A0A11;}
+                    </style> -->
+                    <g>
+                        <defs>
+                            <path id="_x3C_eyeFram1_x3E_" d="M434.7,255.8c-32.9,0-46.9,22.9-46.9,22.9s14,22.9,46.9,22.9s46.6-22.9,46.6-22.9
+                                S467.6,255.8,434.7,255.8z"/>
+                        </defs>
+                        <use class="eyeFill eye-one" xlink:href="#_x3C_eyeFram1_x3E_" />
+                        <clipPath id="_x3C_eyeFram1_x3E__1_">
+                            <use xlink:href="#_x3C_eyeFram1_x3E_"  style="overflow:visible;"/>
+                        </clipPath>
+                        <!-- <circle id="_x3C_eyeBall1_x3E_" class="st0" cx="405.7" cy="279.3" r="25.7"/> -->
+                        <circle id="_x3C_eyeBall1_x3E_" class="st0" cx="405.7" cy="279.3" r="25.7">
+                            <animate id="s1" attributeName="cx" from="405.7" to="465" begin='0;s2.end' dur="2s" />
+                            <animate id="s2" attributeName="cx" from="465" to="405.7" begin='s1.end;' dur="2s"/> -->
+                        </circle>
+                        <use xlink:href="#_x3C_eyeFram1_x3E_"  style="overflow:visible;fill:none;stroke:#747E89;stroke-width:0.75;stroke-miterlimit:10;"/>
+                    </g>
+                </svg>
+```
+
+Then I animated the circle (eyeball) that is within the ```<svg>``` element. I used to animate the SVG, SVG animation element in HTML.
+
+```html
+<circle id="_x3C_eyeBall1_x3E_" class="st0" cx="405.7" cy="279.3" r="25.7">
+                            <animate id="s1" attributeName="cx" from="405.7" to="465" begin='0;s2.end' dur="2s" />
+                            <animate id="s2" attributeName="cx" from="465" to="405.7" begin='s1.end;' dur="2s"/> -->
+                        </circle>
+
+```
+
 ***
 
 **Animated rainbow**
@@ -203,6 +238,8 @@ By creating multiple ```<div>``` elements and giving them a position. I was able
 [Easings](https://easings.net)
 
 [CSS filter](https://css-tricks.com/almanac/properties/f/filter/)
+
+[SVG](https://developer.mozilla.org/en-US/docs/Web/SVG/Element)
 
 [keydown event](https://developer.mozilla.org/en-US/docs/Web/API/Document/keydown_event)
 

@@ -1,4 +1,4 @@
-# **Web-Animation**
+# Web-Animation
 - Emma Younan | VID1
 - Chosen artist - Pierre Mendell 
 - Chosen artwork - "The twelfth night", Shakespeare, Bayerische Staatsoper

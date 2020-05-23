@@ -42,7 +42,7 @@ This poster by Mendell is one of the poster series that he designed for the (Ope
 
 Clouds that have eyes are not that crazy so let's make them crazier by animating them. That gives the poster a much bigger touch of nonsense and attacks the user's attention to the main elements in the poster (the clouds). 
 
-Another decision was to add background music. Twelfth Night is a play by William Shakespeare that has some amazing musicals. That is why I decided to add overtures by composer Sir Alexander Campbell Mackenzie, in1888. 
+Another decision was to add background music. Twelfth Night is a play by William Shakespeare that has some amazing musicals. That is why I decided to add overtures by composer Sir Alexander Campbell Mackenzie, in 1888. 
 
 A clear blue sky with two clouds represents the daytime in the original poster. That is why I decided to have a contrasting night themed poster to represent the nighttime in Shakespeare's play. The user can switch between the different themes. The night poster will have another background music by the same composer. The different music will help the user to switch between a funny bright theme to the romantic night theme.
 

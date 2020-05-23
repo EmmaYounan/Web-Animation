@@ -1,6 +1,6 @@
 # Web-Animation
 - Emma Younan | VID1
-# Recreating artwork in the browser
+# 👾 Recreating artwork in the browser
 ##  ☁️ The artwork - Background information
 ## The recreation
 - from still to movement and interactivity

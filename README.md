@@ -68,12 +68,14 @@ Users can also click on the R button on thier keyboard to start the rainbow anim
 
 - Mousewheel / Mousemove event / Touchmove event
 
-
+***
 
 **Interactive themes**
 - Button (click)
 
 To switch between the Day theme and the Night theme, users can click on the Day/ Night button. Used to code ```.addEventListener('click', functionName);```
+
+***
 
 **Interactive music** 
 - Button (click)

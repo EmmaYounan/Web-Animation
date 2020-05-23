@@ -27,16 +27,41 @@ Twelfth Night, or What You Will is a romantic comedy by William Shakespeare, bel
 
 ## 👩🏽‍💻 The recreation
 - from still to movement and interactivity
+
 ### 🎯 Concept - Desgin decisions
+
 ### ♟ Added design elements
+
 ### 🕹 Interactivity
+
 ### 🤖 Animations
+
 ### 📱💻 Responsive design
 - Mobile
 - Tablet
 - Desktop
+
 ## 📍 Conclusion
+
 ## 👁 References
+[Poster](http://www.posterpage.ch/div/news06/n060618.htm)
+[Twelfth_Night](https://en.wikipedia.org/wiki/Twelfth_Night)
+[Animation - 3D clouds](https://www.clicktorelease.com/blog/how-to-make-clouds-with-css-3d/)
+[Animation - Stars](https://codepen.io/cliffgurney/pen/GNpzdx)
+[Animation - Rainbow](https://codepen.io/mmodrowski/pen/VjPbpo)
+[Easings](https://easings.net)
+[CSS filter](https://css-tricks.com/almanac/properties/f/filter/)
+[keydown event](https://developer.mozilla.org/en-US/docs/Web/API/Document/keydown_event)
+
+
+
+
+
+
+
+
+
+
 ## 👩🏽 Authors
 - Emma Younan
 

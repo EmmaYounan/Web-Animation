@@ -1,2 +1,4 @@
 # Web-Animation
-Web animation
+- Emma Younan | VID1
+# Recreating artwork in the browser
+

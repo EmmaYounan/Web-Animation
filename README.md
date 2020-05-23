@@ -24,6 +24,10 @@ The directness of Mendell's work can achieve the goal of transcending every cult
 - A love triangle
 Twelfth Night, or What You Will is a romantic comedy by William Shakespeare, believed to have been written around 1601–1602 as a Twelfth Night's entertainment for the close of the Christmas season. The play centres on the twins Viola (Viola is one of Shakespeare's cross-dressing heroines) and Sebastian, who are separated in a shipwreck. Viola (who is disguised as Cesario) falls in love with Duke Orsino, who in turn is in love with Countess Olivia. Upon meeting Viola, Countess Olivia falls in love with her thinking she is a man.
 
+### Thoughts on the artwork
+I think that Mendell wanted to represent the two twins by the two clouds. They are the same but also the opposite of each other. But he can also be representing the lovers that are looking at the opposite side of each other. And have no idea of the love that is in each heart. 
+
+
 
 ## 👩🏽‍💻 The recreation
 - from still to movement and interactivity

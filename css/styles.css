@@ -738,7 +738,7 @@ button {
     width: 50px;
 }
 
-@media(max-width: 768px){
+@media(max-width: 1024px){
     .world:nth-of-type(1) {
         margin-top: 18em;
     }

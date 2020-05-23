@@ -74,7 +74,8 @@ Mendell's work was full of simple symbols that everyone can understand. That is 
 
 
 **Animated hearts**
-Using :before and :after pseudo-classes on a <div> element to create a heart shape.
+
+Using ```:before``` and ```:after``` pseudo-classes on a ```<div>``` element to create a heart shape.
 ```css
   .hearts {
     background-color: red;
@@ -110,8 +111,20 @@ Using :before and :after pseudo-classes on a <div> element to create a heart sha
   
 ```
 
-By creating multiple <div> elements and giving them a position. I was able to animate them and create a heart rain effect using Keyframes animation in css.
-(code) 
+By creating multiple ```<div>``` elements and giving them a position. I was able to animate them and create a heart rain effect using Keyframes animation in css.
+```css
+/* hearts animation */
+@keyframes heartOne {
+    0% {
+        top: 110px;
+        opacity: 1;
+    }
+    100% {
+        top: 500px;
+        opacity: 0;
+    }
+}
+```
 
 **Animated stars** 
 

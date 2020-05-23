@@ -746,4 +746,13 @@ button {
         right: 1%;
         top: 290px;
     }
+    
+    .h1-holder{
+        width: 300px;
+        margin-left: -99px;
+    }
+
+    .h2-holder{
+        margin-top: 107px;
+    }
 }   

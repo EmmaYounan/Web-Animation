@@ -72,6 +72,45 @@ Mendell's work was full of simple symbols that everyone can understand. That is 
 
 **Animated rainbow**
 
+To create the rainbow shape I used a ```<div>``` element as a container that has within multiple ```<div>``` elements te represent the different colors of the rainbow.
+
+Each ```<div>``` element is a circle that has a different border color. Each circle also has a ```clip: react()``` to show only the half of the circle and give it an arc shape.
+```css
+.arc {
+    animation: spin ease-in-out 2s normal both;
+    border-radius: 50%;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+}
+.arc-red {
+    border: 40px solid #e31d28;
+    clip: rect(0 490px 245px 0);
+    height: 490px;
+    margin-left: -245px;
+    margin-top: -245px;
+    width: 490px;
+    animation-delay: 1.8s;
+    opacity: 0;
+}
+```
+
+The ```<div>``` parent element has also a ```clip: react()``` to show only the top half of the rainbow. This will give the effect that the rainbow is moving from one side to the other during the animation. 
+```css
+.rainbow {
+    clip: rect(0 490px 245px 0);
+    height: 490px;
+    left: -30%;
+    position: absolute;
+    top: -10%;
+    transform: translateX(-50%) translateY(-25%);
+    width: 490px;
+    transform: rotate(-90deg);
+}
+```
+
+The animation moves the arcs and makes them rotate ```transform: rotateZ();```. And each arc has a different delay ```animation-delay: ();```
+
 
 **Animated hearts**
 

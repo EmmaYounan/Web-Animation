@@ -79,6 +79,7 @@ To switch between the Day theme and the Night theme, users can click on the Day/
 - Button (click)
 
 The background music starts when loading the web page. But because of the privacy policy the load event doesnt work some times. Used code ```.addEventListener("load", functionName);```
+
 The user stil have the option to turn the music off or on by clicking on the music Play/ Pause button. Used to code  ```.addEventListener('click', functionName);```
 
 

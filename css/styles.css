@@ -214,11 +214,12 @@ body {
 }
 
 .h1-holder{
-    position: absolute;
-    top: 109px;
+    /* position: absolute; */
+    /* top: 109px; */
     width: 280px;
     transform: rotate(-90deg);
-    right: 178px;
+    margin-left: -91px;
+    /* right: 10%; */
     border-left: 4px solid white;
     z-index: 1;
     overflow: hidden;
@@ -238,6 +239,7 @@ h1 {
     animation-timing-function: ease-in-out;
     transition: all 1s;
 }
+
 @keyframes moveH1{
     0%{
         margin-left: -280px;
@@ -252,10 +254,19 @@ h1 {
     transition: all 1s;
 }
 
-.h2-holder{
+.textHolder{
     position: absolute;
-    top: 305px;
-    right: 270px;
+    right: 5%;
+    top: 120px;
+    z-index: 99999;
+    width: 150px;
+}
+
+.h2-holder{
+    /* position: absolute; */
+    /* top: 305px;
+    right: 17.2%; */
+    margin-top: 95px;
     z-index: 1;
     overflow: hidden;
 }
@@ -334,7 +345,7 @@ button {
     background-color: white;
     position: absolute;
     z-index: 999;
-    top: 30px;
+    /* top: 30px; */
     left: 30px;
     width: 40px;
     border: none;
@@ -506,6 +517,7 @@ button {
 .button {
     height: 50px;
     width: 100px;
+    top: 30px;
     background-color: transparent;
     border: 1px solid #ffffff;
     border-radius: 50px;
@@ -526,7 +538,7 @@ button {
 
 .music-btn {
     display: block;
-    top: 550px;
+    bottom: 20px;
 }
 
 .heart-btn {
@@ -697,7 +709,7 @@ button {
     opacity: 0.9;
 }
 
-
+/*rainbow animation */
 @keyframes spin {
     from {
         transform: rotateZ(-180deg);
@@ -726,3 +738,12 @@ button {
     width: 50px;
 }
 
+@media(max-width: 768px){
+    .world:nth-of-type(1) {
+        margin-top: 18em;
+    }
+    .textHolder{
+        right: 1%;
+        top: 290px;
+    }
+}   

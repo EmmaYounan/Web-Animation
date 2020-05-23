@@ -45,7 +45,6 @@ function onMouseMove ( e ) {
 
 /*
 event listener to modify the distance of the camera. 
-Move the mouse and notice how the red div changes orientation.
 */
 
 function onContainerMouseWheel( event ) {

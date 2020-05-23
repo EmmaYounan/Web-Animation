@@ -67,8 +67,10 @@ Mendell's work was full of simple symbols that everyone can understand. That is 
 
 ### 🤖 Animations
 **Animated clouds**
+---
 
 **Animated eyes**
+---
 
 **Animated rainbow**
 
@@ -110,7 +112,7 @@ The ```<div>``` parent element has also a ```clip: react()``` to show only the t
 ```
 
 The animation moves the arcs and makes them rotate ```transform: rotateZ();```. And each arc has a different delay ```animation-delay: ();```
-
+---
 
 **Animated hearts**
 
@@ -164,7 +166,7 @@ By creating multiple ```<div>``` elements and giving them a position. I was able
     }
 }
 ```
-
+---
 **Animated stars** 
 
 

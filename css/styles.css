@@ -790,7 +790,7 @@ button {
     .show{
         right: -40px;
         top: 140px;
-        transform: scale(0.7);
+        transform: scale(0.75);
         transition: all 1s;
     }
     

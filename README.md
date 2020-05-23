@@ -28,7 +28,18 @@ Twelfth Night, or What You Will is a romantic comedy by William Shakespeare, bel
 ## 👩🏽‍💻 The recreation
 - from still to movement and interactivity
 
+
 ### 🎯 Concept - Desgin decisions
+This poster by Mendell is one of the poster series that he designed for the (Opera name). It follows the simple yet expressive design of Mendell. Using simple, textured elements, solid background color, and some simple white typography for the poster's information. Medell design had texture, that is why I decided to play with the texture of the clouds. A 3D effect to give the poster a realistic, fun touch. Where the user can use the mousepad to zoom in to the clouds and zoom out of them. Also, the clouds follow the movement of the user's mouse that gives more interactivity to those simple elements. 
+
+Clouds that have eyes are not that crazy so let's make them crazier by animating them. That gives the poster a much bigger touch of nonsense and attacks the user's attention to the main elements in the poster (the clouds). 
+
+Another decision was to add background music. Twelfth Night is a play by William Shakespeare that has some amazing musicals. That is why I decided to add overtures by composer Sir Alexander Campbell Mackenzie, in1888. 
+
+A clear blue sky with two clouds represents the daytime in the original poster. That is why I decided to have a contrasting night themed poster to represent the nighttime in Shakespeare's play. The user can switch between the different themes. The night poster will have another background music by the same composer. The different music will help the user to switch between a funny bright theme to the romantic night theme.
+
+Mendell's work was full of simple symbols that everyone can understand. That is why I decided to add extra interactive elements to the poster. Like the rainbow between the clouds that represents connection and love that is clearly represented in the play, the animated red hearts rain as a simple symbol of love, and the animated stars that adds more to the night theme.
+
 
 ### ♟ Added design elements
 
@@ -47,6 +58,8 @@ Twelfth Night, or What You Will is a romantic comedy by William Shakespeare, bel
 [Poster](http://www.posterpage.ch/div/news06/n060618.htm)
 
 [Twelfth_Night](https://en.wikipedia.org/wiki/Twelfth_Night)
+
+[Twelfth_Night music](https://www.hyperion-records.co.uk/tw.asp?w=W6022)
 
 [Animation - 3D clouds](https://www.clicktorelease.com/blog/how-to-make-clouds-with-css-3d/)
 
@@ -69,6 +82,8 @@ Twelfth Night, or What You Will is a romantic comedy by William Shakespeare, bel
 [ClientX](https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent/clientX)
 
 [Matrix](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/matrix)
+
+
 
 
 

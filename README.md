@@ -145,6 +145,11 @@ The user stil have the option to turn the music off or on by clicking on the mus
 
 
 ### 🤖 Animations
+**Intro animation**
+When opening or refeashing the web page the intro animation happens. The clouds move from left to right. And the big text appears from left to right while having a ```transform: rotate();```, and the small text appears from top to bottom.
+
+***
+
 **Animated eyes**
 
 First, I used Illustrator to create an eye and exported it as an SVG code. In code I started with putting that ```<svg>``` element in my HTML to create the eye shape. Then I animated the circle (eyeball) that is within the ```<svg>``` element. I used to animate the SVG, SVG animation element in HTML.

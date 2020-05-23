@@ -20,6 +20,10 @@ Mendell's work also presents very strong and immediate colors. Usually, you can 
 The directness of Mendell's work can achieve the goal of transcending every cultural or idiomatic bond. 
 " The key to a powerful communication begins with the use of symbols that transcend reality and can be comprised by everyone".
 
+### Twelfth Night - By William Shakespeare
+- A love triangle
+Twelfth Night, or What You Will is a romantic comedy by William Shakespeare, believed to have been written around 1601–1602 as a Twelfth Night's entertainment for the close of the Christmas season. The play centres on the twins Viola (Viola is one of Shakespeare's cross-dressing heroines) and Sebastian, who are separated in a shipwreck. Viola (who is disguised as Cesario) falls in love with Duke Orsino, who in turn is in love with Countess Olivia. Upon meeting Viola, Countess Olivia falls in love with her thinking she is a man.
+
 
 ## 👩🏽‍💻 The recreation
 - from still to movement and interactivity

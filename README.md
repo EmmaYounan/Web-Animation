@@ -59,7 +59,6 @@ Mendell's work was full of simple symbols that everyone can understand. That is 
 ### 🕹 Interactivity
 **Interactive clouds**
 - Buttons (click)
-
 By clicking on the clouds or on the rainbow/ heart button the ranibow or the hearts animation will start based on which theme is used. Using ```.addEventListener('click', functionName);```
 
 - Keydown event

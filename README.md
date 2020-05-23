@@ -228,7 +228,7 @@ To animate the stars I used Keyframes to give the stars a fading effect using di
 
 **Animated buttons**
 
-Interaction buttons (rainbow button, heart button, and music button) are animated with keyframes in CSS by Using ```scale:();```. The Day/ Night button is animated happens when a class added is added in JavaScript on the button when the click events happen. The animation is changing the position of the background image and changing the background image from a sun a moon when the click event happens, while also using ```transition:();```. All buttons have a ```:hover``` and ```:focus``` pseudo-classes. To make sure that the user knows when an element is interactive.
+Interaction buttons (rainbow button, heart button, and music button) are animated with keyframes in CSS by using ```scale:();```. The Day/ Night button is animated happens when a class added is added in JavaScript on the button when the click events happen. The animation is changing the position of the background image and changing the background image from a sun a moon when the click event happens, while also using ```transition:();```. All buttons have a ```:hover``` and ```:focus``` pseudo-classes. To make sure that the user knows when an element is interactive.
 
 
 

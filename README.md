@@ -11,6 +11,13 @@ This work (poster) was made by Pierre Mendell in 1998, presenting the "The twelf
 
 Simplicity in forms is one of the many characteristics that Mendell's work had. Clean style, basic, essential, minimal, and prefers rational and smart solutions. Mendell himself says, that the reason that he prefers to avoid the use of photography is that it represents the reality that can change, while fixing a concept make it persists along time.
 
+Another characteristic is complexity in ideas. Despite his work being connoted by immediacy and simplicity, you can find a lot of the complexity in his themes and concepts.
+
+Mendell's work also presents very strong and immediate colors. Usually, you can find three, or almost four colors per poster. Color can be full of simulates texture or brush. 
+
+The directness of Mendell's work can achieve the goal of transcending every cultural or idiomatic bond. 
+" The poser of communication begins with the use of symbols that transcend reality and can be comprised by everyone".
+
 
 ## 👩🏽‍💻 The recreation
 - from still to movement and interactivity

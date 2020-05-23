@@ -11,7 +11,7 @@ During the Visual Interface Design minor we followed a web animation course. The
 
 This work (poster) was made by Pierre Mendell in 1998, presenting the "The twelfth night" by Shakespeare for the Bayerische Staatsoper. Pierre Mendell is an American-German designer, and one of the world's leading graphic designers. For almost 30 years he played a role in creating the visual identity of the neue sammlung – the international design museum munich. 
 
-Simplicity in forms is one of the many characteristics that Mendell's work had. Clean style, basic, essential, minimal, and prefers rational and smart solutions. Mendell himself says, that the reason that he prefers to avoid the use of photography is that it represents the reality that can change, while fixing a concept make it persists along time.
+Simplicity in forms is one of the many characteristics that Mendell's work had. Clean style, basic, essential, minimal, and prefers rational and smart solutions. Mendell himself says, that is the reason why he prefers to avoid the use of photography is that it represents the reality that can change, while fixing a concept make it persists along time.
 
 Another characteristic is complexity in ideas. Despite his work being connoted by immediacy and simplicity, you can find a lot of the complexity in his themes and concepts.
 

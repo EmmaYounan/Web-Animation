@@ -88,6 +88,45 @@ function onMouseMove ( e ) {
 }
 ```
 
+While scrolling a zoom in en zoom out effect happens. That occurs using a ```function onContainerMouseWheel( event )``` that modifies the distance of the camera. This happens by calling the function using ```.addEventListener( 'mousewheel', onContainerMouseWheel );```.
+```js 
+function onContainerMouseWheel( event ) {
+    event = event ? event : window.event;
+    d = d - ( event.detail ? event.detail * -5 : event.wheelDelta / 8 );
+    updateView();
+}
+```
+
+To update the view to follow every mouse movement using ```function updateView()``` That changes the transform property of world to be translated in the Z axis by d pixels, Rotated in the X-axis by worldXAngle degrees and rotated in the Y-axis by worldYAngle degrees. 
+```js 
+function updateView() {
+    var t = 'translateZ( ' + d + 'px ) rotateX( ' + worldXAngle + 'deg) rotateY( ' + worldYAngle + 'deg)';
+    worlds.forEach( world =>{
+    world.style.webkitTransform = t;
+    world.style.MozTransform = t;
+    world.style.oTransform = t;
+ })
+}
+```
+
+To update the png images view and give it a 3D effect using the ```function update ()``` to have the clouds facing you all the time to maintain the 3D defect. while the world is facing the mouse.
+```js
+function update (){
+    cloudsArray.forEach( layer =>{
+        var style = window.getComputedStyle(layer);
+        var matrix = new WebKitCSSMatrix(style.webkitTransform)
+        var t = 'translateX( ' + matrix.m41 + 'px ) translateY( ' + matrix.m42+ 'px ) translateZ( ' + matrix.m43 + 'px )        rotateY( ' + ( - worldYAngle ) + 'deg ) rotateX( ' + ( - worldXAngle ) + 'deg ) rotateZ( ' + matrix.m41 + 'deg )';
+        layer.style.webkitTransform = t;
+        layer.style.MozTransform = t;
+        layer.style.oTransform = t;
+    })
+
+    requestAnimationFrame( update );
+
+}
+```
+
+
 ***
 
 **Interactive themes**
@@ -106,10 +145,6 @@ The user stil have the option to turn the music off or on by clicking on the mus
 
 
 ### 🤖 Animations
-**Animated clouds**
-
-***
-
 **Animated eyes**
 
 First, I used Illustrator to create an eye and exported it as an SVG code. In code I started with putting that ```<svg>``` element in my HTML to create the eye shape. Then I animated the circle (eyeball) that is within the ```<svg>``` element. I used to animate the SVG, SVG animation element in HTML.
@@ -309,18 +344,6 @@ This project helped me refresh my memory of CSS and learn some new things about 
 [ClientX](https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent/clientX)
 
 [Matrix](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/matrix)
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ## 👩🏽 Authors

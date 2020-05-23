@@ -59,11 +59,12 @@ Mendell's work was full of simple symbols that everyone can understand. That is 
 ### 🕹 Interactivity
 **Interactive clouds**
 - Buttons (click)
-By clicking on the clouds or on the rainbow/ heart button the ranibow or the hearts animation will start based on which theme is used. Using ```.addEventListener('click', functionName);```
+
+By clicking on the clouds or on the rainbow/ heart button the ranibow or the hearts animation will start based on which theme is used. Used to code ```.addEventListener('click', functionName);```
 
 - Keydown event
 
-Users can also click on the R button on thier keyboard to start the rainbow animation. And click on the H button on thier keyboard to start the hearts animation. Using ```.addEventListener("keydown", function (e))```
+Users can also click on the R button on thier keyboard to start the rainbow animation. And click on the H button on thier keyboard to start the hearts animation. Used to code ```.addEventListener("keydown", function (e))```
 
 - Mousewheel / Mousemove event / Touchmove event
 
@@ -72,8 +73,13 @@ Users can also click on the R button on thier keyboard to start the rainbow anim
 **Interactive themes**
 - Button (click)
 
+To switch between the Day theme and the Night theme, users can click on the Day/ Night button. Used to code ```.addEventListener('click', functionName);```
+
 **Interactive music** 
 - Button (click)
+
+The background music starts when loading the web page. But because of the privacy policy the load event doesnt work some times. Used code ```.addEventListener("load", functionName);```
+The user stil have the option to turn the music off or on by clicking on the music Play/ Pause button. Used to code  ```.addEventListener('click', functionName);```
 
 
 ### 🤖 Animations

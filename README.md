@@ -183,6 +183,32 @@ By creating multiple ```<div>``` elements and giving them a position. I was able
 
 **Animated stars** 
 
+To create the stars, I used a JavaScript function to create an element in my HTML. And using ```Math.random()```  to give the a random position to the created stars. I chose to do that because of the number of stars that must be created to give the night sky effect.
+```js
+function drawStars(){
+  var tmpStar = document.createElement('figure')
+  tmpStar.className = "star";
+  tmpStar.style.top = 100*Math.random()+'%';
+  tmpStar.style.left = 100*Math.random()+'%';
+  document.getElementById('sky').appendChild(tmpStar);
+}
+```
+
+To animate the stars I used Keyframes to give the stars a fading effect using different opasities.
+```css
+@keyframes fade {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+```
+
 ***
 
 **Animated buttons**

@@ -74,6 +74,8 @@ Mendell's work was full of simple symbols that everyone can understand. That is 
 
 **Animated stars** 
 
+**Animated buttons**
+
 
 ### 📱💻 Responsive design
 - Mobile

@@ -34,7 +34,7 @@ I think that Mendell wanted to represent the two twins by the two clouds. They a
 
 
 ## 👩🏽‍💻 The recreation
-- from still to movement and interactivity
+- From still to movement and interactivity
 
 
 ### 🎯 Concept - Desgin decisions

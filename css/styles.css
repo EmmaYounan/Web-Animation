@@ -746,7 +746,7 @@ button {
         right: 1%;
         top: 290px;
     }
-    
+
     .h1-holder{
         width: 300px;
         margin-left: -99px;
@@ -756,3 +756,32 @@ button {
         margin-top: 107px;
     }
 }   
+@media(max-width: 414px){
+    body {
+        background-color: #7b9cc5;
+    }
+    #viewport{
+        overflow: visible;
+        transform: scale(0.7);
+        left: -100px;
+    }
+    .world:nth-of-type(1) {
+        margin-top: 8em;
+    }
+    .world:nth-of-type(2) {
+    }
+    .textHolder{
+        right: -40px;
+        top: 140px;
+        transform: scale(0.9);
+    }
+    
+    .h1-holder{
+        width: 300px;
+        margin-left: -99px;
+    }
+
+    .h2-holder{
+        margin-top: 107px;
+    }
+}  

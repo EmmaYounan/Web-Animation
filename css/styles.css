@@ -784,7 +784,7 @@ button {
     .textHolder{
         right: -200px;
         top: 140px;
-        transform: scale(0.9);
+        transform: scale(0.75);
         transition: all 1s;
     }
     .show{

@@ -14,6 +14,10 @@
     animation-iteration-count: 1;
     cursor: pointer;
   }
+
+  .textBtn {
+      display: none;
+  }
   
   .world:nth-of-type(2) {
     height: 250px;
@@ -346,7 +350,7 @@ button {
     position: absolute;
     z-index: 999;
     /* top: 30px; */
-    left: 30px;
+    /* left: 30px; */
     width: 40px;
     border: none;
     font-size: 1em;
@@ -518,6 +522,7 @@ button {
     height: 50px;
     width: 100px;
     top: 30px;
+    left: 30px;
     background-color: transparent;
     border: 1px solid #ffffff;
     border-radius: 50px;
@@ -539,6 +544,7 @@ button {
 .music-btn {
     display: block;
     bottom: 20px;
+    left: 30px;
 }
 
 .heart-btn {
@@ -755,25 +761,37 @@ button {
     .h2-holder{
         margin-top: 107px;
     }
+    .cloudPink {
+        filter: sepia() saturate(100%) hue-rotate(185deg);
+   }
 }   
 @media(max-width: 414px){
     body {
+        transition: all 1s;
         background-color: #7b9cc5;
+    }
+
+    .nightView{
+        background-color:rgb(23, 0, 65);
     }
     #viewport{
         overflow: visible;
-        transform: scale(0.7);
-        left: -100px;
+        transform: scale(0.6);
     }
     .world:nth-of-type(1) {
         margin-top: 8em;
     }
-    .world:nth-of-type(2) {
-    }
     .textHolder{
+        right: -200px;
+        top: 140px;
+        transform: scale(0.9);
+        transition: all 1s;
+    }
+    .show{
         right: -40px;
         top: 140px;
         transform: scale(0.9);
+        transition: all 1s;
     }
     
     .h1-holder{
@@ -783,5 +801,22 @@ button {
 
     .h2-holder{
         margin-top: 107px;
+    }
+
+    .textBtn {
+        display: block;
+        height: 50px;
+        position: absolute;
+        right: 30px;
+        top: 30px;
+        padding: 1em;
+        padding-bottom: 0;
+        padding-top: 0;
+        width: 70px;
+        text-align: center;
+        color: white;
+        background-color: transparent;
+        border: 1px solid white;
+        border-radius: 25px;
     }
 }  

@@ -111,6 +111,13 @@ var btnHeart = document.querySelector(".heart-btn");
 var playButton = document.querySelector('.music-btn');
 var musicOne = document.querySelector('.audio-one');
 var worlds = document.querySelectorAll(".world")
+var bodyElement = document.querySelector('body')
+var textBtn = document.querySelector('.textBtn')
+var textHolder = document.querySelector(".textHolder")
+
+textBtn.addEventListener("click", function(){
+    textHolder.classList.toggle("show")
+})
 
 for (let i = 0; i < worlds.length; i++) {
     worlds[i].addEventListener('click', function(){
@@ -212,6 +219,7 @@ window.addEventListener("keydown", function (e) {
 })
 
 button.addEventListener('click', function(){
+    bodyElement.classList.toggle('nightView')
     button.classList.toggle('night')
     
     eyeBall[0].classList.toggle('eyeBallColor');

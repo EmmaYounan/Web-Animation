@@ -18,7 +18,7 @@ Another characteristic is complexity in ideas. Despite his work being connoted b
 Mendell's work also presents very strong and immediate colors. Usually, you can find three, or almost four colors per poster. Color can be full of simulates texture or brush. 
 
 The directness of Mendell's work can achieve the goal of transcending every cultural or idiomatic bond. 
-" The poser of communication begins with the use of symbols that transcend reality and can be comprised by everyone".
+" The key to a powerful communication begins with the use of symbols that transcend reality and can be comprised by everyone".
 
 
 ## 👩🏽‍💻 The recreation

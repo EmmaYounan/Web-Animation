@@ -42,6 +42,11 @@ Mendell's work was full of simple symbols that everyone can understand. That is 
 
 
 ### ♟ Added design elements
+- Rainbow
+- Hearts
+- Stars
+- Music
+- Night theme
 
 ### 🕹 Interactivity
 

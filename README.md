@@ -314,7 +314,7 @@ Interaction buttons (rainbow button, heart button, and music button) are animate
 - Tablet
 - Desktop
 
-![Uploading ezgif.com-optimize.gif…]()
+![desktop](https://user-images.githubusercontent.com/45408480/82752356-bdfbd880-9dbd-11ea-8cd8-098ca9e9b1b8.gif)
 
 ## 📍 Conclusion
 This project helped me refresh my memory of CSS and learn some new things about CSS Keyframes animation and much more about how to use the other CSS properties like (Clip, Filter, Transform, and Transform-style). Moreover, it was really interesting to recreate still artwork and make it interactive for the web. And think about the different interactions and how to change the layout based on different screen sizes. While thinking about the animation of each interactive element.

@@ -313,6 +313,7 @@ Interaction buttons (rainbow button, heart button, and music button) are animate
 - Mobile
 - Tablet
 - Desktop
+
 ![Uploading ezgif.com-optimize.gif…]()
 
 ## 📍 Conclusion

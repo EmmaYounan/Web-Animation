@@ -315,6 +315,9 @@ Interaction buttons (rainbow button, heart button, and music button) are animate
 ![mobile](https://user-images.githubusercontent.com/45408480/82752736-6f9c0900-9dc0-11ea-9a7b-a41f8c127757.gif)
 
 - Tablet
+
+![tablet](https://user-images.githubusercontent.com/45408480/82752876-70816a80-9dc1-11ea-8ff7-4eb94b634319.gif)
+
 - Desktop
 
 ![desktop](https://user-images.githubusercontent.com/45408480/82752356-bdfbd880-9dbd-11ea-8cd8-098ca9e9b1b8.gif)
